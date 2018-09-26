@@ -46,8 +46,8 @@ then the result is equal to that of the expression `(n >> s)` + `(2 << ~s)`.
 If the promoted type of the left-hand operand is int, then only the 
 five lowest-order bits of the right-hand operand are used as the 
 shift distance. It is as if the right-hand operand were subjected to a 
-bitwise logical AND operator & (§15.22.1) with the mask value 0x1f 
-(0b11111). The shift distance actually used is therefore always in the 
+bitwise logical AND operator with the mask value `(0b11111)`. 
+The shift distance actually used is therefore always in the 
 range 0 to 31, inclusive.
 
 ## bitwise AND, OR, XOR
