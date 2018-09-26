@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/java-bit-operators.svg?branch=master)](https://travis-ci.com/mtumilowicz/java-bit-operators)
+
 # java-bit-operators
 The main goal of this project is to show bit operators in java.
 
